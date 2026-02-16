@@ -8,14 +8,25 @@ const[counter, setcounter] = useState(15);
 
 const addValue = () =>
   {
+    if(counter<20)
+    {
     setcounter(counter+1)
     console.log(`clicked ${counter}`)
+    }
+    else{
+      setcounter(counter)
+    }
   }
 
 const minusValue = () =>
   {
+    if(counter>=0){
     setcounter(counter-1)
     console.log(`clicked ${counter}`)
+    }
+    else{
+      setcounter(counter)
+    }
   }
 
   return (
