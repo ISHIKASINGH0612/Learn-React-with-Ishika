@@ -1,6 +1,8 @@
+import Chai from './chai.jsx'
+
 function App() {
   return (
-   <div >Learn React with Hitesh</div>
+   <Chai />
   );
 }
 
